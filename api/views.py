@@ -50,7 +50,9 @@ def pred(request, id = None):
     if ocf.empty:
         bcaf.loc[len(bcaf.index)] = [0, 0, 0, 0, 0, 0, 0, 0]
     if bcam.empty:
-        bcam.loc[len(bcam.index)] = [0, 0, 0, 0, 0, 0, 0, 0] 
+        bcam.loc[len(bcam.index)] = [0, 0, 0, 0, 0, 0, 0, 0]
+    if bcaf.empty:
+        bcaf.loc[len(bcaf.index)] = [0, 0, 0, 0, 0, 0, 0, 0]  
     if bcbf.empty:
         bcbf.loc[len(bcbf.index)] = [0, 0, 0, 0, 0, 0, 0, 0]
     if bcbm.empty:
